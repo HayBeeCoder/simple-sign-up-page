@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="head_wrapper container row ">
+            <figure class="logo-wrap">
+                <h1 class="logo">
+                    yell-yah
+                </h1>
+            </figure>
+            <div class="search_wrapper">
+
+                <label for="search" class="search_wrapper">
+                        <input type="search" name="search" id="search" class="search_box" placeholder="what are you lokking for?">
+                    <button class="searchbtn">
+                        <i class="search_icon fas fa-search"></i>
+                    </button>
+                         </label>
+
+            </div>
+            <nav class="nav__bar ">
+                <ul class="nav__list row">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link main_nav__link">
+                            home
+                        </a>
+                    </li>
+                    <li class="nav__item rel nav__parent">
+                        <a href="#" class="nav__link main_nav__link ">
+                            pricing
+                        </a>
+                        <!-- -=====sub=== -->
+                        <ul class="nav__list sub-menu col abs">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link sub_link">
+                                home
+                            </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link sub_link ">
+                                pricing
+                            </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link sub_link ">
+                                contact
+                            </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link sub_link">
+                                about
+                            </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link sub_link">
+                                blog
+                            </a>
+                            </li>
+
+                        </ul>
+
+                        <!-- =sub=== -->
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link main_nav__link">
+                            contact
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link main_nav__link">
+                            about
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link main_nav__link">
+                            blog
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main_section container">
+        <div class="pd-center">
+
+
+            <div class="form_section">
+                <div class="form_heading">
+                    <h2 class="form_heading mg-top">Register Your Account</h2>
+
+                </div>
+                <hr class="form_rule">
+                <form action="">
+                    <div class="form_group">
+
+                        <label for="email" class="form_label">Email</label>
+                        <div class="form_input_wrapper">
+                            <input class="form_input" type="email" name="email" id="email" placeholder="JohnDoe@domain.com">
+
+                        </div>
+                    </div>
+                    <div class="form_group">
+                        <label for="password" class="form_label">Password</label>
+                        <div class="form_input_wrapper">
+                            <input class="form_input" type="password" name="password" id="password" placeholder="Enter strong password">
+
+                        </div>
+                    </div>
+                    <div class="form_group">
+                        <label for="confirm" class="form_label">Confirm</label>
+                        <div class="form_input_wrapper">
+                            <input class="form_input" type="password" name="confirmed-email" id="confirm" placeholder="Confirm your password">
+
+                        </div>
+                    </div>
+                    <div class="form_group">
+                        <button class="button button-register button-bg-green ">Register </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>
